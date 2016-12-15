@@ -1,7 +1,7 @@
 {
   "name": "kirby",
   "version": "0.0.0",
-  "description": "",
+  "description": "An automated responder.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,12 +17,15 @@
   },
   "homepage": "https://github.com/DaJoker29/kirby#readme",
   "dependencies": {
+    "async": "https://registry.npmjs.org/async/-/async-2.1.4.tgz",
     "eslint": "3.12.2",
     "eslint-config-airbnb": "13.0.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-json": "1.2.0",
     "eslint-plugin-jsx-a11y": "2.2.3",
     "eslint-plugin-react": "6.8.0",
-    "mongoose": "4.7.2"
+    "mongoose": "4.7.2",
+    "node-craigslist": "1.1.0",
+    "nodemailer": "2.7.0"
   }
 }
